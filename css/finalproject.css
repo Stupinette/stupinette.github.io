@@ -1,0 +1,341 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "helvetica";
+
+}
+
+.section{
+    padding: 100px 200px 100px 200px;
+}
+
+#intro{
+    background-image: url('../images/watercolor.jpg');
+    background-size: cover;
+}
+
+#intro2{
+    background-image: url('../images/watercolor_blue.jpg');
+    background-size: cover;
+}
+
+#intro3{
+    background-image: url('../images/watercolor_green.jpg');
+    background-size: cover;
+}
+
+#intro4{
+    background-image: url('../images/watercolor_purple.jpg');
+    background-size: cover;
+}
+
+#intro5{
+    background-image: url('../images/watercolor_brown.jpg');
+    background-size: cover;
+}
+
+#intro6{
+    background-image: url('../images/watercolor_pink.jpg');
+    background-size: cover;
+}
+
+.carousel-item{
+    background-color:#175f75;
+    padding: 50px;
+}
+
+.imagecarousel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#presentation{
+    background-color:#175f75;
+}
+
+#software{
+    background-color:rgb(0, 0, 0, 0.5);
+}
+
+#work{
+    background-color:rgb(23,95,117, 0.5);
+}
+
+#studies{
+    background-color:rgb(0, 0, 0, 0.5);
+}
+
+#webd{
+    background-color:#175f75;
+}
+
+#sdd{ 
+    background-color:rgb(0, 0, 0, 0.5);
+
+}
+
+#graphic{
+    background-color:black;
+}
+
+#diyletters{
+    background-color:#175f75;
+}
+
+#diylights{
+    background-color:rgb(0, 0, 0, 0.5);
+}
+
+#blogwatercolour{
+    background-color:rgb(23,95,117, 0.5);
+}
+
+#quote{
+    background-color:#175f75;
+}
+
+.slider{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+label{
+    color: #0ca948;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    display: inline-block;
+}
+
+button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        flex: 50%;
+    }
+    .section{
+        padding: 100px;
+    }
+
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex-direction: column;
+    }
+    .section{
+        padding: 50px;
+    }
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+.progress{
+    background-color: rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px;
+    margin: 15px;
+    padding-left: 10px;
+
+
+}
+
+.progress .lightbodytext{
+    display: flex;
+    float: left;
+}
+
+.card-header{
+    background-color: rgb(250, 250, 250, 0.5);
+    border-radius: 0.5px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size:8vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+h2{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:6vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.lightsubtitle{
+    font-size:4vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+
+}
+
+.lighsmalltitle{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:2.5vw;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.preamble{
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 3px;
+    background-color: rgb(255, 255, 255, 0.75);
+}
+
+.lightpreamble{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color:white;
+    margin-bottom: 50px;
+
+}
+
+.lightbodytext{
+    color:white;
+    text-align: center;
+    font-size:2vw;
+    letter-spacing: 1px;
+}
+
+.lightbodytext a:hover{
+    color:white;
+}
+
+.lightsmalltext{
+    color:white;
+    text-align: center;
+    font-size:10px;
+    letter-spacing: 1px;
+    margin-bottom: 50px
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+th {
+    padding: 15px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+td a:hover{
+    color:white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+
+}   
+
+.footer{
+    color:white;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Portfolio page, Gallery*/
+.columns {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.columns img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.columns img:hover {
+    opacity: 1;
+}
+
+.thumnailswd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bigimage {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}

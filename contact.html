@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/FinalProject.css">
+        <script src="js/finalproject.js"></script>
+
+
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Diana Stupino</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resume</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./resume.html#about">About Me</a>
+                                <a class="dropdown-item" href="./resume.html#skills">Skills</a>
+                                <a class="dropdown-item" href="./resume.html#experience">Experience</a>
+                                <a class="dropdown-item" href="./resume.html#education">Education</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="images/resume.jpg" target="_blank">Download my Resume</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./portfolio.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./portfolio.html#intro2">Presentation</a>
+                                <a class="dropdown-item" href="./portfolio.html#webdesign">Web Design</a>
+                                <a class="dropdown-item" href="./portfolio.html#smartdigitaldisplay">Smart Digital Display</a>
+                                <a class="dropdown-item" href="./portfolio.html#graphicdesign">Graphic Design</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./blog.html#intro2">Presentation</a>
+                                <a class="dropdown-item" href="./blog.html#letters">DIY Letters</a>
+                                <a class="dropdown-item" href="./blog.html#lights">DIY Ligths</a>
+                                <a class="dropdown-item" href="./blog.html#watercolour">Watercolour</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quote.html">Quote</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./contact.html">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </header>
+        <main>
+            <div class="section" id="intro6">
+                <h1>Contact</h1>
+                <p class="preamble">
+                    If you have any question, comment or you want to give a feedback, please don't hesitate to email me or call me.<br>
+                    Also, you can fill this e-form if you prefer!<br>
+                    I am looking forward for hearing from you!<br>
+                    Email: <a href="mailto:distib@gmail.com" target="_top">distib@gmail.com</a>
+                    
+                </p>
+                
+            </div>
+
+            <div class="section" id="quote">
+                <a id="letters"></a>
+                <h2>Contact Me!</h2>
+                <div class="form">
+                    <form action="javascript:submit()" method="post">
+                        <label class="lightbodytext">Name:</label>
+                        <input type="text" id="name" required><br>
+                        <label class="lightbodytext">Email:</label>
+                        <input type="email" id="email" required><br>
+                        <label class="lightbodytext">Phone:</label>
+                        <input type="text" id="phone" oninput="phoneNumberEntered(this)" required><br>
+                        <label class="lightbodytext">Info:</label>
+                        <textarea id="Message" required></textarea><br>
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </form>
+                </div>
+            </div >
+
+        </main>
+        <footer>
+            <div class="columnfooter">
+                <p class="footer">Diana Stupino - Portfolio | Copyright © 2019 All Rights Reserved</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
