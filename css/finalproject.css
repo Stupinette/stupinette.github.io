@@ -133,6 +133,11 @@ button{
     margin-top: 25px;
 }
 
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+    margin-top: 25px;
+}
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
@@ -214,7 +219,7 @@ h2{
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-size:2.5vw;
+    font-size: 2.5vw;
     font-weight: bold;
     letter-spacing: 3px;
 
@@ -222,6 +227,7 @@ h2{
 
 .preamble{
     text-transform: uppercase;
+    font-size:1.5vw;
     padding: 25px;
     letter-spacing: 3px;
     background-color: rgb(255, 255, 255, 0.75);
@@ -239,7 +245,7 @@ h2{
 .lightbodytext{
     color:white;
     text-align: center;
-    font-size:2vw;
+    font-size: 2vw;
     letter-spacing: 1px;
 }
 
@@ -250,7 +256,7 @@ h2{
 .lightsmalltext{
     color:white;
     text-align: center;
-    font-size:10px;
+    font-size:12px;
     letter-spacing: 1px;
     margin-bottom: 50px
 }
